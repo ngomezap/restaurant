@@ -9,8 +9,9 @@ const page = function(){
 
     intro.innerText = "Home";
     menu.innerText = "Menu";
-    contact.innerText = "Where are we?";
+    contact.innerText = "Where?";
 
+    nav.classList.add('nav');
     nav.appendChild(intro);
     nav.appendChild(menu);
     nav.appendChild(contact);
